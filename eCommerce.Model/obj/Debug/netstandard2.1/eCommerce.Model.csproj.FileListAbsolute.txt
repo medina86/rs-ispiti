@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\bin\Debug\netstandard2.1\eCommerce.Model.deps.json
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\bin\Debug\netstandard2.1\eCommerce.Model.dll
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\bin\Debug\netstandard2.1\eCommerce.Model.pdb
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\obj\Debug\netstandard2.1\eCommerce.Model.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\obj\Debug\netstandard2.1\eCommerce.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\obj\Debug\netstandard2.1\eCommerce.Model.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\obj\Debug\netstandard2.1\eCommerce.Model.AssemblyInfo.cs
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\obj\Debug\netstandard2.1\eCommerce.Model.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\obj\Debug\netstandard2.1\eCommerce.Model.sourcelink.json
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\obj\Debug\netstandard2.1\eCommerce.Model.dll
+C:\Users\User\Desktop\dovraganekidesve\FIT-RS2-2025\eCommerce\eCommerce.Model\obj\Debug\netstandard2.1\eCommerce.Model.pdb

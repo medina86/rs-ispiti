@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44D68541-DF5F-446D-8894-E59A4B6555CE}|eCommerce.WebAPI\\eCommerce.WebAPI.csproj|c:\\users\\user\\desktop\\dovraganekidesve\\fit-rs2-2025\\ecommerce\\ecommerce.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D68541-DF5F-446D-8894-E59A4B6555CE}|eCommerce.WebAPI\\eCommerce.WebAPI.csproj|solutionrelative:ecommerce.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D68541-DF5F-446D-8894-E59A4B6555CE}|eCommerce.WebAPI\\eCommerce.WebAPI.csproj|c:\\users\\user\\desktop\\dovraganekidesve\\fit-rs2-2025\\ecommerce\\ecommerce.webapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D68541-DF5F-446D-8894-E59A4B6555CE}|eCommerce.WebAPI\\eCommerce.WebAPI.csproj|solutionrelative:ecommerce.webapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D68541-DF5F-446D-8894-E59A4B6555CE}|eCommerce.WebAPI\\eCommerce.WebAPI.csproj|c:\\users\\user\\desktop\\dovraganekidesve\\fit-rs2-2025\\ecommerce\\ecommerce.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44D68541-DF5F-446D-8894-E59A4B6555CE}|eCommerce.WebAPI\\eCommerce.WebAPI.csproj|solutionrelative:ecommerce.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A622C209-FE29-4230-B28F-2562423266B0}|eCommerce.Services\\eCommerce.Services.csproj|c:\\users\\user\\desktop\\dovraganekidesve\\fit-rs2-2025\\ecommerce\\ecommerce.services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A622C209-FE29-4230-B28F-2562423266B0}|eCommerce.Services\\eCommerce.Services.csproj|solutionrelative:ecommerce.services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0B940-AD9D-4734-B09F-F944FDE318A2}|eCommerce.Model\\eCommerce.Model.csproj|c:\\users\\user\\desktop\\dovraganekidesve\\fit-rs2-2025\\ecommerce\\ecommerce.model\\requests\\todorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC0B940-AD9D-4734-B09F-F944FDE318A2}|eCommerce.Model\\eCommerce.Model.csproj|solutionrelative:ecommerce.model\\requests\\todorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0B940-AD9D-4734-B09F-F944FDE318A2}|eCommerce.Model\\eCommerce.Model.csproj|c:\\users\\user\\desktop\\dovraganekidesve\\fit-rs2-2025\\ecommerce\\ecommerce.model\\responses\\todoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC0B940-AD9D-4734-B09F-F944FDE318A2}|eCommerce.Model\\eCommerce.Model.csproj|solutionrelative:ecommerce.model\\responses\\todoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A622C209-FE29-4230-B28F-2562423266B0}|eCommerce.Services\\eCommerce.Services.csproj|c:\\users\\user\\desktop\\dovraganekidesve\\fit-rs2-2025\\ecommerce\\ecommerce.services\\database\\todo4924.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A622C209-FE29-4230-B28F-2562423266B0}|eCommerce.Services\\eCommerce.Services.csproj|solutionrelative:ecommerce.services\\database\\todo4924.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.WebAPI\\Controllers\\ToDoController.cs",
+              "RelativeDocumentMoniker": "eCommerce.WebAPI\\Controllers\\ToDoController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.WebAPI\\Controllers\\ToDoController.cs",
+              "RelativeToolTip": "eCommerce.WebAPI\\Controllers\\ToDoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T19:30:17.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "eCommerce.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.WebAPI\\appsettings.json",
+              "RelativeToolTip": "eCommerce.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-30T19:25:35.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ToDoService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.Services\\ToDoService.cs",
+              "RelativeDocumentMoniker": "eCommerce.Services\\ToDoService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.Services\\ToDoService.cs",
+              "RelativeToolTip": "eCommerce.Services\\ToDoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T19:17:23.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToDoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.Model\\Responses\\ToDoResponse.cs",
+              "RelativeDocumentMoniker": "eCommerce.Model\\Responses\\ToDoResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.Model\\Responses\\ToDoResponse.cs",
+              "RelativeToolTip": "eCommerce.Model\\Responses\\ToDoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T19:13:04.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ToDoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.Model\\Requests\\ToDoRequest.cs",
+              "RelativeDocumentMoniker": "eCommerce.Model\\Requests\\ToDoRequest.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.Model\\Requests\\ToDoRequest.cs",
+              "RelativeToolTip": "eCommerce.Model\\Requests\\ToDoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T19:12:34.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ToDo4924.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.Services\\Database\\ToDo4924.cs",
+              "RelativeDocumentMoniker": "eCommerce.Services\\Database\\ToDo4924.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.Services\\Database\\ToDo4924.cs",
+              "RelativeToolTip": "eCommerce.Services\\Database\\ToDo4924.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T19:08:50.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "eCommerce.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dovraganekidesve\\FIT-RS2-2025\\eCommerce\\eCommerce.WebAPI\\Program.cs*",
+              "RelativeToolTip": "eCommerce.WebAPI\\Program.cs*",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswGEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T19:01:38.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1524,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

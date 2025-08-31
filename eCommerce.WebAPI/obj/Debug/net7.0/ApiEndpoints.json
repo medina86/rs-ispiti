@@ -1,0 +1,1150 @@
+[
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.ProductController",
+    "Method": "Create",
+    "RelativePath": "api/Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.ProductInsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ProductResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseController\u00602[[eCommerce.Model.Responses.ProductResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ProductSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Get",
+    "RelativePath": "api/Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeGTE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTS",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IncludeTotalCount",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "RetrieveAll",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.PagedResult\u00601[[eCommerce.Model.Responses.ProductResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.ProductResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ProductSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ProductInsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ProductUpdateRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.ProductUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ProductResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.ProductResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ProductSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ProductInsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ProductUpdateRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseController\u00602[[eCommerce.Model.Responses.ProductResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ProductSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ProductResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.ProductController",
+    "Method": "ActivateAsync",
+    "RelativePath": "api/Product/{id}/activate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ProductResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.ProductController",
+    "Method": "AllowedActions",
+    "RelativePath": "api/Product/{id}/allowed-actions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.ProductController",
+    "Method": "DeactivateAsync",
+    "RelativePath": "api/Product/{id}/deactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ProductResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.ProductController",
+    "Method": "Recommend",
+    "RelativePath": "api/Product/{id}/recommend",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[eCommerce.Model.Responses.ProductResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.ProductController",
+    "Method": "CreateDummyOrderDataAsync",
+    "RelativePath": "api/Product/dummy-orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numberOfOrders",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.ProductTypeResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ProductTypeSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ProductTypeUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ProductTypeUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/ProductTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.ProductTypeUpsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ProductTypeResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseController\u00602[[eCommerce.Model.Responses.ProductTypeResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ProductTypeSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Get",
+    "RelativePath": "api/ProductTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTS",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IncludeTotalCount",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "RetrieveAll",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.PagedResult\u00601[[eCommerce.Model.Responses.ProductTypeResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.ProductTypeResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ProductTypeSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ProductTypeUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ProductTypeUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/ProductTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.ProductTypeUpsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ProductTypeResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.ProductTypeResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ProductTypeSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ProductTypeUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ProductTypeUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/ProductTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseController\u00602[[eCommerce.Model.Responses.ProductTypeResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ProductTypeSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/ProductTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ProductTypeResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.RoleController",
+    "Method": "Get",
+    "RelativePath": "api/Role",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTS",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IncludeTotalCount",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "RetrieveAll",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.PagedResult\u00601[[eCommerce.Model.Responses.RoleResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.RoleResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.RoleSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.RoleUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.RoleUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.RoleUpsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.RoleResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.RoleController",
+    "Method": "GetById",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.RoleResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.RoleResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.RoleSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.RoleUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.RoleUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.RoleUpsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.RoleResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.RoleResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.RoleSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.RoleUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.RoleUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.ToDoResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ToDoSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ToDoRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ToDoRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/ToDo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.ToDoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ToDoResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseController\u00602[[eCommerce.Model.Responses.ToDoResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ToDoSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Get",
+    "RelativePath": "api/ToDo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Rok",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.Nullable\u00601[[eCommerce.Model.Enums.StatusAktivnosti, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTS",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IncludeTotalCount",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "RetrieveAll",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.PagedResult\u00601[[eCommerce.Model.Responses.ToDoResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.ToDoResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ToDoSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ToDoRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ToDoRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/ToDo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.ToDoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ToDoResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Model.Responses.ToDoResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ToDoSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ToDoRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.ToDoRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/ToDo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseController\u00602[[eCommerce.Model.Responses.ToDoResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.ToDoSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/ToDo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.ToDoResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Services.Responses.UnitOfMeasureResponse, eCommerce.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.UnitOfMeasureSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.UnitOfMeasureUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.UnitOfMeasureUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/UnitOfMeasure",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.UnitOfMeasureUpsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Services.Responses.UnitOfMeasureResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseController\u00602[[eCommerce.Services.Responses.UnitOfMeasureResponse, eCommerce.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.UnitOfMeasureSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Get",
+    "RelativePath": "api/UnitOfMeasure",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FTS",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IncludeTotalCount",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "RetrieveAll",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.PagedResult\u00601[[eCommerce.Services.Responses.UnitOfMeasureResponse, eCommerce.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Services.Responses.UnitOfMeasureResponse, eCommerce.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.UnitOfMeasureSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.UnitOfMeasureUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.UnitOfMeasureUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/UnitOfMeasure/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.UnitOfMeasureUpsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Services.Responses.UnitOfMeasureResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseCRUDController\u00604[[eCommerce.Services.Responses.UnitOfMeasureResponse, eCommerce.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.UnitOfMeasureSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.UnitOfMeasureUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.Requests.UnitOfMeasureUpsertRequest, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/UnitOfMeasure/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.BaseController\u00602[[eCommerce.Services.Responses.UnitOfMeasureResponse, eCommerce.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[eCommerce.Model.SearchObjects.UnitOfMeasureSearchObject, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/UnitOfMeasure/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Services.Responses.UnitOfMeasureResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.UsersController",
+    "Method": "Get",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTS",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IncludeTotalCount",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "RetrieveAll",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[eCommerce.Model.Responses.UserResponse, eCommerce.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.UsersController",
+    "Method": "Create",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.UserUpsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.UsersController",
+    "Method": "Update",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.UserUpsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eCommerce.Model.Requests.UserLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "eCommerce.Model.Responses.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eCommerce.WebAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[eCommerce.WebAPI.WeatherForecast, eCommerce.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
